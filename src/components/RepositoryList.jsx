@@ -4,7 +4,7 @@ import repositories from '../data/repositories.js'
 import RepositoryItem from './RepositoryItem.jsx';
 
 const RepositoryList = () => {
-  //alert("minuto 33:04")
+  alert("minuto 1:03:30")
   return (
     <FlatList
       data={repositories}

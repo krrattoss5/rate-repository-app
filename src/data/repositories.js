@@ -4,9 +4,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -14,9 +14,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -24,9 +24,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -34,9 +34,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -44,9 +44,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -54,9 +54,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -64,9 +64,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -74,9 +74,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
   {
@@ -84,9 +84,9 @@ export default [
     fullName: 'Nombre',
     description: 'Descripcion',
     language: 'Español',
-    stargazersCount: '55',
-    forksCount: '1000',
-    reviewCount: '15',
+    stargazersCount: '123548',
+    forksCount: '1086500',
+    reviewCount: '165585',
     ratingAverage: '5'
   },
 ]
