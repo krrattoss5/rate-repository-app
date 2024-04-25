@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native'
 import StyledText from './StyleText'
 import Constants from 'expo-constants'
 import theme from '../theme'
+import { Link } from 'react-router-native'
 
 const styles = StyleSheet.create({
   container:{
@@ -16,12 +17,21 @@ const styles = StyleSheet.create({
   }
 })
 
+const AppBarTap = ({active, children, to}) => {
+ return (
+  <Link to={to} >
+    <StyledText fontWeight='bold' style={styles.text}>
+      {children}
+    </StyledText>
+  </Link>
+ )
+}
+
 export default function AppBar() {
   return (
     <View style={styles.container}>
-      <StyledText fontWeight='bold' style={styles.text}>
-        Repositories
-      </StyledText>
+      <AppBarTap active to='/'>Repositories</AppBarTap>
+      <AppBarTap active to='/signin'>Sig IN</AppBarTap>
     </View>
   )
 }
