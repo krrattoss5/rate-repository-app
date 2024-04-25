@@ -1,12 +1,17 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, StyleSheet } from "react-native";
 import RepositoryList from "./RepositoryList";
 
 export default function Main() {
   return (
-    <View>
-      <Text>Rate Repository Application</Text>
+    <View style={styles.container}>
       <RepositoryList />
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container:{
+    paddingVertical:40
+  }
+})

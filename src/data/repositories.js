@@ -7,7 +7,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario2',
@@ -17,7 +18,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario3',
@@ -27,7 +29,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario4',
@@ -37,7 +40,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario5',
@@ -47,7 +51,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario6',
@@ -57,7 +62,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario7',
@@ -67,7 +73,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario8',
@@ -77,7 +84,8 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
   {
     id:'usuario9',
@@ -87,6 +95,7 @@ export default [
     stargazersCount: '123548',
     forksCount: '1086500',
     reviewCount: '165585',
-    ratingAverage: '5'
+    ratingAverage: '5',
+    ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/106036371?v=4'
   },
 ]
