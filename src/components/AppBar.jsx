@@ -1,26 +1,41 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, TouchableWithoutFeedback, ScrollView } from 'react-native'
 import StyledText from './StyleText'
 import Constants from 'expo-constants'
 import theme from '../theme'
-import { Link } from 'react-router-native'
+import { Link, useLocation } from 'react-router-native'
 
 const styles = StyleSheet.create({
   container:{
     backgroundColor: theme.appBar.primary,
     paddingTop: Constants.statusBarHeight + 10,
+    paddingLeft:10,
+    flexDirection:'row'
+  },
+  scroll:{
     paddingBottom:10,
-    paddingLeft:10
   },
   text:{
-    color: theme.appBar.textPrimary
+    color: theme.appBar.textSecondary,
+    paddingHorizontal:10
+  },
+  active:{
+    color: theme.appBar.textPrimary,
   }
 })
 
-const AppBarTap = ({active, children, to}) => {
+const AppBarTap = ({children, to}) => {
+  const { pathname } = useLocation()
+
+  let active = pathname === to
+  const textStyles = [
+    styles.text,
+    active && styles.active,
+  ]
+
  return (
-  <Link to={to} >
-    <StyledText fontWeight='bold' style={styles.text}>
+  <Link to={to} component={TouchableWithoutFeedback}>
+    <StyledText fontWeight='bold' style={textStyles}>
       {children}
     </StyledText>
   </Link>
@@ -30,8 +45,15 @@ const AppBarTap = ({active, children, to}) => {
 export default function AppBar() {
   return (
     <View style={styles.container}>
-      <AppBarTap active to='/'>Repositories</AppBarTap>
-      <AppBarTap active to='/signin'>Sig IN</AppBarTap>
+      <ScrollView horizontal style={styles.scroll}>
+        <AppBarTap to='/'>Repositories</AppBarTap>
+        <AppBarTap to='/signin'>Sig IN</AppBarTap>
+        <AppBarTap to='/signin'>Sig IN</AppBarTap>
+        <AppBarTap to='/signin'>Sig IN</AppBarTap>
+        <AppBarTap to='/signin'>Sig IN</AppBarTap>
+        <AppBarTap to='/signin'>Sig IN</AppBarTap>
+        <AppBarTap to='/signin'>Sig IN</AppBarTap>
+      </ScrollView>
     </View>
   )
 }
