@@ -48,11 +48,6 @@ export default function AppBar() {
       <ScrollView horizontal style={styles.scroll}>
         <AppBarTap to='/'>Repositories</AppBarTap>
         <AppBarTap to='/signin'>Sig IN</AppBarTap>
-        <AppBarTap to='/signin'>Sig IN</AppBarTap>
-        <AppBarTap to='/signin'>Sig IN</AppBarTap>
-        <AppBarTap to='/signin'>Sig IN</AppBarTap>
-        <AppBarTap to='/signin'>Sig IN</AppBarTap>
-        <AppBarTap to='/signin'>Sig IN</AppBarTap>
       </ScrollView>
     </View>
   )
