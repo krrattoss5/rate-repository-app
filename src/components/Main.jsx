@@ -1,8 +1,10 @@
 import React from "react";
-import { View,Text } from "react-native";
-import RepositoryList from "./RepositoryList";
-import AppBar from "./AppBar";
+import { View } from "react-native";
+import RepositoryList from "./RepositoryList.jsx";
+// import AppBar from "./AppBar";
 import { Route,Routes } from "react-router-native";
+import LoginPage from "../pages/Login.jsx";
+import AppBar from './AppBar.jsx'
 
 export default function Main() {
   //flex 1ayuda a renderizar el ultimo elemento
@@ -11,7 +13,7 @@ export default function Main() {
       <AppBar />
       <Routes>
         <Route path='/' element={<RepositoryList />} />
-        <Route path='/signin' element={<Text>Sign In</Text>} />
+        <Route path='/signin' element={<LoginPage />} />
       </Routes>
     </View>
   )
